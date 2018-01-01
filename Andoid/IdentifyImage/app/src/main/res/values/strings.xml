@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">IdentifyImage</string>
+    <string name="text_view">0</string>
+    <string name="text_res">Touch and create images</string>
+    <string name="run_btn_res">run</string>
+    <string name="evklid_res">Evklid distance =</string>
+</resources>

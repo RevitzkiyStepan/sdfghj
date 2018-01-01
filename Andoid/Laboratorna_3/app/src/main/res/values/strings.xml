@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Laboratorna_3</string>
+    <string name="value_res_A">Value A</string>
+    <string name="value_res_B">Value B</string>
+    <string name="value_res_C">Value C</string>
+    <string name="value_res_D">Value D</string>
+    <string name="run_res_btn">RUN</string>
+    <string name="author_res">Author:</string>
+    <string name="author_name_res">Revitzkiy Stepan</string>
+    <string name="text_view_max_value" />
+    <string name="calculation_res">Calculation</string>
+    <string name="info_res">About me</string>
+    <string name="enter_value_res">Enter Value</string>
+</resources>

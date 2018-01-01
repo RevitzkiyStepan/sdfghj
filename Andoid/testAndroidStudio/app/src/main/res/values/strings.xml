@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">TestAndroidStudio</string>
+    <string name="info_res">About me</string>
+    <string name="calc_res">Calculation</string>
+    <string name="first_res">First activity</string>
+    <string name="param_a_res">Enter A</string>
+    <string name="param_b_res">Enter B</string>
+    <string name="param_c_res">Enter C</string>
+    <string name="param_d_res">Enter D</string>
+    <string name="run_btn_res">RUN</string>
+    <string name="author">author: </string>
+    <string name="name">Revitzkiy Stepan</string>
+    <string name="last_max_value"></string>
+    <string name="new_value" />
+    <string name="last_value">Max Value:</string>
+    <string name="new_text_value">New value</string>
+</resources>

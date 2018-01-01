@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laboratorna_4</string>
+    <string name="max_elem_value">Enter max value</string>
+    <string name="value_determ">Enter value determinant</string>
+    <string name="run">RUN</string>
+    <string name="stop">STOP</string>
+</resources>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Welcom</string>
+    <string name="welcom">Welcom to Android App Development!</string>
+    <string name="deitel_logo">Deitel double-thumbs-up bug logo</string>
+</resources>

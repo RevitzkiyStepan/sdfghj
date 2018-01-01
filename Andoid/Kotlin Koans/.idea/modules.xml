@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/koans.test.iml" filepath="$PROJECT_DIR$/.idea/modules/koans.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/lesson1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task1/lesson1-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task1/lesson1-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task10/lesson1-task10.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task10/lesson1-task10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task11/lesson1-task11.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task11/lesson1-task11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task12/lesson1-task12.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task12/lesson1-task12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task2/lesson1-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task2/lesson1-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task3/lesson1-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task3/lesson1-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task4/lesson1-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task4/lesson1-task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task5/lesson1-task5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task5/lesson1-task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task6/lesson1-task6.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task6/lesson1-task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task7/lesson1-task7.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task7/lesson1-task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task8/lesson1-task8.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task8/lesson1-task8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task9/lesson1-task9.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task9/lesson1-task9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/lesson2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/lesson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task1/lesson2-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task1/lesson2-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task2/lesson2-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task2/lesson2-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task3/lesson2-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task3/lesson2-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task4/lesson2-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task4/lesson2-task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task5/lesson2-task5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task5/lesson2-task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task6/lesson2-task6.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task6/lesson2-task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson2/task7/lesson2-task7.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson2/task7/lesson2-task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/lesson3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/lesson3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task1/lesson3-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task1/lesson3-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task10/lesson3-task10.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task10/lesson3-task10.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task11/lesson3-task11.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task11/lesson3-task11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task12/lesson3-task12.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task12/lesson3-task12.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task2/lesson3-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task2/lesson3-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task3/lesson3-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task3/lesson3-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task4/lesson3-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task4/lesson3-task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task5/lesson3-task5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task5/lesson3-task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task6/lesson3-task6.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task6/lesson3-task6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task7/lesson3-task7.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task7/lesson3-task7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task8/lesson3-task8.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task8/lesson3-task8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson3/task9/lesson3-task9.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson3/task9/lesson3-task9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson4/lesson4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson4/lesson4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson4/task1/lesson4-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson4/task1/lesson4-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson4/task2/lesson4-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson4/task2/lesson4-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson4/task3/lesson4-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson4/task3/lesson4-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson4/task4/lesson4-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson4/task4/lesson4-task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/lesson5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/lesson5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/task1/lesson5-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/task1/lesson5-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/task2/lesson5-task2.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/task2/lesson5-task2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/task3/lesson5-task3.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/task3/lesson5-task3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/task4/lesson5-task4.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/task4/lesson5-task4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson5/task5/lesson5-task5.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson5/task5/lesson5-task5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson6/lesson6.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson6/lesson6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson6/task1/lesson6-task1.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson6/task1/lesson6-task1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/task13/task13.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/task13/task13.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/util.iml" />
+    </modules>
+  </component>
+</project>

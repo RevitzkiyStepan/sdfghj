@@ -1,0 +1,24 @@
+*{
+	box-sizing: border-box;
+}
+.body{
+	padding: 0px;
+	margin: 0px;
+}
+.navbar{
+	margin: 0px;
+}
+.btn{
+	margin-left: 10px;
+	margin-bottom: -60px;
+	background-color: #424242;
+	color: #BDBDBD;
+}
+#sp1{
+	background-color: red;
+}
+#sp2{
+	background-color: #FFC107;
+}
+
+

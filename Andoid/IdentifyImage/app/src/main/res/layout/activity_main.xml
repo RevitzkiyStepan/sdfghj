@@ -1,0 +1,1512 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.example.arondillqs5328.identifyimage.MainActivity">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:text="@string/text_res" />
+
+    <GridLayout
+        android:id="@+id/grid_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text_view"
+        android:layout_marginTop="10dp"
+        android:columnCount="7"
+        android:rowCount="11"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/tv_1_11"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_12"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_13"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_14"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_15"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_16"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_21"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_22"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_23"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_24"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_25"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_26"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_31"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_32"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_33"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_34"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_35"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_36"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_41"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_42"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_43"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_44"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_45"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_46"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_51"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_52"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_53"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_54"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_55"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_56"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_61"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_62"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_63"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_64"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_65"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_66"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_71"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_72"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_73"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_74"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_75"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_76"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_81"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_82"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_83"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_84"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_85"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_86"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_91"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_92"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_93"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_94"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_95"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_96"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_101"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_102"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_103"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_104"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_105"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_1_106"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+    </GridLayout>
+
+
+    <GridLayout
+        android:id="@+id/grid_2_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_view"
+        android:layout_marginTop="10dp"
+        android:columnCount="7"
+        android:rowCount="11">
+
+        <TextView
+            android:id="@+id/tv_2_11"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_12"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_13"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_14"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_15"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_16"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="1"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_21"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_22"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_23"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_24"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_25"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_26"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="2"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_31"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_32"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_33"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_34"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_35"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_36"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="3"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_41"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_42"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_43"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_44"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_45"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_46"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="4"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_51"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_52"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_53"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_54"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_55"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_56"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="5"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_61"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_62"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_63"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_64"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_65"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_66"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="6"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_71"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_72"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_73"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_74"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_75"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_76"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="7"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_81"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_82"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_83"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_84"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_85"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_86"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="8"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_91"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_92"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_93"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_94"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_95"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_96"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="9"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_101"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_102"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_103"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_104"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_105"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+        <TextView
+            android:id="@+id/tv_2_106"
+            android:layout_width="23dp"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:layout_row="10"
+            android:clickable="true"
+            android:gravity="center"
+            android:onClick="onClickTVUpdate"
+            android:text="@string/text_view" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/run_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/grid_group"
+        android:layout_marginTop="10dp"
+        android:text="@string/run_btn_res"
+        android:onClick="onClickRun"/>
+
+    <TextView
+        android:id="@+id/res_ev"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/evklid_res"
+        android:layout_below="@id/run_btn"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/resultEvklid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/res_ev"
+        android:layout_alignBottom="@+id/res_ev"
+        android:layout_toEndOf="@+id/res_ev"
+        android:layout_toRightOf="@+id/res_ev"
+        android:layout_marginLeft="10dp" />
+
+
+
+</RelativeLayout>

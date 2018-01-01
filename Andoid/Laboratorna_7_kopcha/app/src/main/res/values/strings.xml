@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Laboratorna_7_kopcha</string>
+    <string name="line_1_res">enter line 1</string>
+    <string name="line_2_res">enter line 2</string>
+    <string name="z_1_res">завдання 1</string>
+    <string name="z_2_res">завдання 2</string>
+    <string name="z_3_res">завдання 3</string>
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.arondillqs5328.laboratorna_7_kopcha.MainActivity">
+
+    <EditText
+        android:id="@+id/upLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/up_value_res"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/downLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/upLine"
+        android:hint="@string/down_value_res"/>
+
+    <Button
+        android:id="@+id/btn_z1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/downLine"
+        android:layout_marginTop="30dp"
+        android:onClick="runZ12"
+        android:text="@string/run_btn_z1_res"/>
+
+
+    <Button
+        android:id="@+id/btn_z3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_z1"
+        android:layout_marginTop="30dp"
+        android:onClick="runZ3"
+        android:text="@string/run_btn_z3_res"/>
+
+</RelativeLayout>

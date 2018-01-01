@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.arondillqs5328.myexam.MainActivity">
+
+    <EditText
+        android:id="@+id/valueA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_value_a"
+        android:layout_centerHorizontal="true"/>
+
+    <EditText
+        android:id="@+id/valueB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_value_b"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/valueA"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/runCalc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/run_res"
+        android:onClick="onClickRunCalc"/>
+
+</RelativeLayout>

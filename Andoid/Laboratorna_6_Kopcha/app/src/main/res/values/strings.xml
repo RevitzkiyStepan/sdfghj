@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laboratorna_6_Kopcha</string>
+    <string name="enter_value_n_res">Enter value N</string>
+    <string name="enter_value_r_res">Enter value R</string>
+    <string name="run_res">RUN</string>
+    <string name="result_edit_text_res">Result:</string>
+</resources>

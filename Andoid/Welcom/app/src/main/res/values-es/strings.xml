@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="welcom" translatable="false">Bienvenido a Android App Development!</string>
+    <string name="app_name">Welcom</string>
+    <string name="deitel_logo">El logo de Deitel que tiene el insecto con dedos pulgares hacia arriba</string>
+</resources>

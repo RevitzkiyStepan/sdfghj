@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.arondillqs5328.laboratorna_6_kopcha.MainActivity">
+
+    <EditText
+        android:id="@+id/valueN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/enter_value_n_res"/>
+
+    <EditText
+        android:id="@+id/valueR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/valueN"
+        android:layout_marginTop="10dp"
+        android:hint="@string/enter_value_r_res"/>
+
+    <Button
+        android:id="@+id/runBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/run_res"
+        android:onClick="onClickRun"/>
+
+</RelativeLayout>

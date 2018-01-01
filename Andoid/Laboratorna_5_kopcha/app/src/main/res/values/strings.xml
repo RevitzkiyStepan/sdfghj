@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Laboratorna_5_kopcha</string>
+    <string name="enterTransposition">Transposition</string>
+    <string name="run_next_res">next</string>
+    <string name="run_all_res">all</string>
+    <string name="result_res">Result</string>
+</resources>

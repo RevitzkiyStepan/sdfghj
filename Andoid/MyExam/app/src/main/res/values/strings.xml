@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyExam</string>
+    <string name="enter_value_a">Enter A</string>
+    <string name="enter_value_b">Enter B</string>
+    <string name="run_res">run</string>
+    <string name="enter_value_c">Enter C</string>
+</resources>

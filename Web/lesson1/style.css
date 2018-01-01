@@ -1,0 +1,26 @@
+body{
+	margin: 0px;
+}
+#menu{
+	float: left;
+	margin: 10px auto;
+	background-color: yellow;
+	width: 700px;
+	height: 50px;
+}
+#content{
+	margin: 10px auto;
+	background-color: red;
+	width: 700px;
+	height: 250px;
+}
+#footer{
+	float: left;
+	margin: 10px auto;
+	background-color: green;
+	width: 700px;
+	height: 30px;
+}
+li{
+	background-color: white;
+}
